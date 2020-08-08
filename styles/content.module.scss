@@ -1,0 +1,82 @@
+@import 'base/variables';
+
+.anchor {
+  position: absolute;
+  top: -90px;
+}
+
+.container {
+  position: relative;
+}
+
+.content {
+  &,
+  p {
+    color: $text-color;
+    font-size: 16px;
+    font-stretch: normal;
+    font-style: normal;
+    font-weight: normal;
+    letter-spacing: .29px;
+    line-height: normal;
+  }
+
+  p {
+    &.comment {
+      color: #989898;
+    }
+  }
+}
+
+.info-image {
+  display: block;
+  margin: 16px auto;
+  width: 678px;
+}
+
+.list-styletype-hyphen {
+  list-style-position: inside;
+  list-style-type: '- ';
+  padding: 0;
+}
+
+.strong {
+  font-weight: bold;
+}
+
+.sub-title {
+  color: $text-color;
+  font-size: 20px;
+  font-stretch: normal;
+  font-style: normal;
+  font-weight: bold;
+  letter-spacing: .36px;
+  line-height: normal;
+}
+
+.title {
+  color: $text-color;
+  font-size: 38px;
+  font-stretch: normal;
+  font-style: normal;
+  font-weight: bold;
+  letter-spacing: .68px;
+  line-height: normal;
+  margin: 0;
+
+  &-small {
+    font-size: 20px;
+  }
+}
+
+.video {
+  &-container {
+    margin-bottom: 16px;
+    margin-top: 16px;
+    text-align: center;
+
+    video {
+      width: 666px;
+    }
+  }
+}

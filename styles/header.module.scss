@@ -1,0 +1,43 @@
+@import 'base/variables';
+
+.toolbar {
+  background-color: $white !important;
+  border-bottom: 1px solid #eaeaea;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.link {
+  border-bottom: 3px solid transparent;
+  border-radius: 1.5px;
+  border-top: 3px solid transparent;
+  box-sizing: border-box;
+  color: #989898 !important;
+  display: inline-block;
+  font-family: Roboto;
+  font-size: 16px;
+  font-stretch: normal;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: .29px;
+  line-height: normal;
+  margin: 1em 1.5em !important;
+  padding: 8px 0;
+  text-decoration: none;
+
+  &-active {
+    border-bottom-color: $link-color;
+    color: $link-color !important;
+  }
+}
+
+.ticmas-logo {
+  align-items: center;
+  display: flex;
+
+  img {
+    &:first-child {
+      margin-right: 16px;
+    }
+  }
+}

@@ -1,0 +1,27 @@
+@import 'base/variables';
+
+.footer {
+  color: #989898;
+  font-size: 38px;
+  font-stretch: normal;
+  font-style: normal;
+  font-weight: bold;
+  letter-spacing: .68px;
+  line-height: normal;
+  padding: 0 44px 44px;
+
+  p {
+    color: $text-color;
+    font-family: Roboto;
+    font-size: 16px;
+    font-stretch: normal;
+    font-style: normal;
+    font-weight: normal;
+    letter-spacing: .29px;
+    line-height: normal;
+
+    a {
+      color: $link-color;
+    }
+  }
+}

@@ -1,0 +1,15 @@
+@import 'base/variables';
+
+.main {
+  background-color: $white;
+  padding: 22px 44px;
+}
+
+.sidebar-container {
+  width: $sidebar-width !important;
+}
+
+.page-container {
+  height: calc(100vh);
+  width: calc(100% - #{$sidebar-width}) !important;
+}
